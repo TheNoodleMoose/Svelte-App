@@ -1,6 +1,6 @@
 <script>
   export let name;
-  import Hello from "./Components/Hello.svelte";
+  import Colors from "./Components/Colors.svelte";
 </script>
 
 <style>
@@ -11,5 +11,5 @@
 
 <div>
   <h1>Hello {name}!</h1>
-  <Hello />
+  <Colors />
 </div>
